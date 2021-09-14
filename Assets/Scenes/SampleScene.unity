@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 1050200676}
   - component: {fileID: 1050200675}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1244,8 +1244,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1405327560}
 --- !u!58 &1202098157
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1528,7 +1529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"moveSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpHeight","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpKeyPressed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"moveSpeed","value":{"$content":4.4,"$type":"System.Single"},"$version":"A"},{"name":"jumpHeight","value":{"$content":2.5,"$type":"System.Single"},"$version":"A"},{"name":"jumpKeyPressed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"jump","value":null,"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!212 &1405327563
 SpriteRenderer:
